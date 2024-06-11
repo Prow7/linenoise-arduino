@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For Linenoise
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+linenoise	KEYWORD2
+linenoiseFree	KEYWORD2
+linenoiseEditStart	KEYWORD2
+linenoiseEditFeed	KEYWORD2
+linenoiseEditStop	KEYWORD2
+linenoiseHide	KEYWORD2
+linenoiseShow	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+LITERAL1 linenoiseEditMore

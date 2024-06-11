@@ -1,4 +1,4 @@
-/* linenoise.h -- VERSION 1.0
+/* Linenoise.h -- VERSION 1.0
  *
  * Guerrilla line editing library against the idea that a line editing lib
  * needs to be 20,000 lines of C code.
@@ -45,7 +45,7 @@ extern "C" {
 
 #include <stddef.h> /* For size_t. */
 
-extern char *linenoiseEditMore;
+extern char linenoiseEditMore[1];
 
 /* The linenoiseState structure represents the state during line editing.
  * We pass this state to functions implementing specific editing
